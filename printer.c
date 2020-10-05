@@ -70,6 +70,7 @@ void printer_delete (FILE *output)
 
 	free(printer_buf_mem);
 	printer_buf_mem = NULL;
+	printer_buf_have_mem = false;
 }
 
 #endif
